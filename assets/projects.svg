@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="800" height="280" rx="16"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .n { font-size: 13px; font-weight: 700; letter-spacing: 2px; }
+    .t { font-size: 30px; font-weight: 700; fill: #e6edf3; }
+    .s { font-size: 15px; fill: #8b949e; }
+    .b { font-size: 17px; fill: #c9d1d9; }
+    .slide { animation: swipe 16s ease-in-out infinite alternate; }
+    @keyframes swipe {
+      0%, 20% { transform: translateX(0); }
+      28%, 45% { transform: translateX(-800px); }
+      53%, 70% { transform: translateX(-1600px); }
+      78%, 100% { transform: translateX(-2400px); }
+    }
+  </style>
+  <g clip-path="url(#c)"><g class="slide">
+
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="800" height="280" fill="url(#bg)"/>
+    <rect x="0" y="0" width="8" height="280" fill="#58a6ff"/>
+    <text class="n" x="50" y="50" fill="#58a6ff">PROJECT 1 / 4</text>
+    <text class="t" x="50" y="90">Movie Recommendation System</text>
+    <text class="s" x="50" y="120">Django · Python · Scikit-learn · Pandas</text>
+    <text class="b" x="50" y="150">▸ Content-based filtering with TF-IDF + SVD</text>
+    <text class="b" x="50" y="182">▸ Top-K neighbor storage in Parquet: 10GB → 20MB</text>
+    <text class="b" x="50" y="214">▸ Sub-50ms recommendations, Docker + CI</text>
+    <circle cx="355" cy="255" r="5" fill="#58a6ff"/><circle cx="385" cy="255" r="3.5" fill="#30363d"/><circle cx="415" cy="255" r="3.5" fill="#30363d"/><circle cx="445" cy="255" r="3.5" fill="#30363d"/>
+
+    <!-- Card 2 -->
+    <rect x="800" y="0" width="800" height="280" fill="url(#bg)"/>
+    <rect x="800" y="0" width="8" height="280" fill="#3fb950"/>
+    <text class="n" x="850" y="50" fill="#3fb950">PROJECT 2 / 4</text>
+    <text class="t" x="850" y="90">Job Application Tracker</text>
+    <text class="s" x="850" y="120">Next.js · React · PostgreSQL · Prisma</text>
+    <text class="b" x="850" y="150">▸ Track applications, interviews, resumes</text>
+    <text class="b" x="850" y="182">▸ Google / GitHub OAuth login</text>
+    <text class="b" x="850" y="214">▸ Interview scheduling with conflict detection</text>
+    <circle cx="1155" cy="255" r="3.5" fill="#30363d"/><circle cx="1185" cy="255" r="5" fill="#3fb950"/><circle cx="1215" cy="255" r="3.5" fill="#30363d"/><circle cx="1245" cy="255" r="3.5" fill="#30363d"/>
+
+    <!-- Card 3 -->
+    <rect x="1600" y="0" width="800" height="280" fill="url(#bg)"/>
+    <rect x="1600" y="0" width="8" height="280" fill="#f78166"/>
+    <text class="n" x="1650" y="50" fill="#f78166">PROJECT 3 / 4</text>
+    <text class="t" x="1650" y="90">FoodBridge</text>
+    <text class="s" x="1650" y="120">React · Supabase · Leaflet.js · PWA</text>
+    <text class="b" x="1650" y="150">▸ Real-time map of surplus food listings</text>
+    <text class="b" x="1650" y="182">▸ AI vision check for food freshness</text>
+    <text class="b" x="1650" y="214">▸ Hackathon project: Vashisht 3.0, EcoTech Track</text>
+    <circle cx="1955" cy="255" r="3.5" fill="#30363d"/><circle cx="1985" cy="255" r="3.5" fill="#30363d"/><circle cx="2015" cy="255" r="5" fill="#f78166"/><circle cx="2045" cy="255" r="3.5" fill="#30363d"/>
+
+    <!-- Card 4 -->
+    <rect x="2400" y="0" width="800" height="280" fill="url(#bg)"/>
+    <rect x="2400" y="0" width="8" height="280" fill="#bc8cff"/>
+    <text class="n" x="2450" y="50" fill="#bc8cff">PROJECT 4 / 4</text>
+    <text class="t" x="2450" y="90">News Verification System</text>
+    <text class="s" x="2450" y="120">Python · NLP · Scikit-learn · FEVER</text>
+    <text class="b" x="2450" y="150">▸ Fake-news baseline: TF-IDF + Logistic Regression / SVM</text>
+    <text class="b" x="2450" y="182">▸ Evaluated with F1 and confusion matrices</text>
+    <text class="b" x="2450" y="214">▸ Evidence-based claim verification (NLI) in progress</text>
+    <circle cx="2755" cy="255" r="3.5" fill="#30363d"/><circle cx="2785" cy="255" r="3.5" fill="#30363d"/><circle cx="2815" cy="255" r="3.5" fill="#30363d"/><circle cx="2845" cy="255" r="5" fill="#bc8cff"/>
+
+  </g></g>
+  <rect width="800" height="280" rx="16" fill="none" stroke="#30363d"/>
+</svg>
