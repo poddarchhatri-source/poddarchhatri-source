@@ -3,11 +3,23 @@
 B.Tech CSE student at **IIITDM Chennai** (2024–2028), interested in
 **Machine Learning** and **full-stack development**.
 
-## 🔧 What I work with
-- **Languages:** Python, Java, C, C++, JavaScript
-- **Web:** React, Next.js, Node.js, Django, Tailwind CSS
-- **ML:** Scikit-learn, Pandas, NumPy, PyTorch, TensorFlow
-- **Databases & tools:** PostgreSQL, Supabase, Docker, Git
+## 🛠️ Skills
+
+<div align="center">
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css" />
+
+**Web**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,django" />
+
+**Databases, ML & Tools**
+
+<img src="https://skillicons.dev/icons?i=postgres,supabase,pytorch,tensorflow,pandas,numpy,docker,git,github,vercel" />
+
+</div>
 
 ## 🚀 Featured projects
 - **[Movie Recommendation System](link)**: content-based recommender (TF-IDF + SVD), sub-50ms responses
