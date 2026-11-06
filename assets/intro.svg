@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#bc8cff"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="800" height="220" rx="16"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .name { font-size: 46px; font-weight: 700; fill: url(#txt); opacity: 0; animation: rise 1.2s ease-out forwards; }
+    .hi { font-size: 18px; fill: #8b949e; opacity: 0; animation: rise 1s ease-out .2s forwards; }
+    .line { font-size: 22px; fill: #e6edf3; opacity: 0; animation: show 12s infinite; }
+    .l1 { animation-delay: 1s; } .l2 { animation-delay: 4s; } .l3 { animation-delay: 7s; } .l4 { animation-delay: 10s; }
+    .orb { animation: float 6s ease-in-out infinite; }
+    .o2 { animation-duration: 8s; animation-delay: -2s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes show { 0% { opacity: 0; transform: translateX(-20px); } 4%, 22% { opacity: 1; transform: translateX(0); } 26%, 100% { opacity: 0; transform: translateX(20px); } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="800" height="220" fill="url(#bg)"/>
+    <circle class="orb" cx="680" cy="60" r="70" fill="#58a6ff" opacity=".12"/>
+    <circle class="orb o2" cx="740" cy="170" r="45" fill="#bc8cff" opacity=".15"/>
+    <circle class="orb o2" cx="60" cy="190" r="35" fill="#58a6ff" opacity=".1"/>
+    <text class="hi" x="50" y="65">👋 Hi, I'm</text>
+    <text class="name" x="50" y="115">Prince Kumar</text>
+    <text class="line l1" x="50" y="165">CS Undergrad @ IIITDM Chennai</text>
+    <text class="line l2" x="50" y="165">Machine Learning Enthusiast</text>
+    <text class="line l3" x="50" y="165">Full-Stack Developer</text>
+    <text class="line l4" x="50" y="165">360+ LeetCode Problems Solved</text>
+  </g>
+</svg>
