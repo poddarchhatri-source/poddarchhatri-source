@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi, I'm Prince Kumar 👋
 
-<!--
-**poddarchhatri-source/poddarchhatri-source** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+B.Tech CSE student at **IIITDM Chennai** (2024–2028), interested in
+**Machine Learning** and **full-stack development**.
 
-Here are some ideas to get you started:
+## 🔧 What I work with
+- **Languages:** Python, Java, C, C++, JavaScript
+- **Web:** React, Next.js, Node.js, Django, Tailwind CSS
+- **ML:** Scikit-learn, Pandas, NumPy, PyTorch, TensorFlow
+- **Databases & tools:** PostgreSQL, Supabase, Docker, Git
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Featured projects
+- **[Movie Recommendation System](link)**: content-based recommender (TF-IDF + SVD), sub-50ms responses
+- **[Job Application Tracker](link)**: full-stack Next.js app with OAuth and interview scheduling
+- **[FoodBridge](link)**: real-time food redistribution PWA (hackathon project)
+- **[News Verification System](link)**: fake-news detection with NLP
+
+## 📈 Problem solving
+360+ problems solved on LeetCode, synced to [75-Days-LeetCode-Challenge](link)
+
+## 📫 Reach me
+[LinkedIn](https://linkedin.com/in/prince-poddar-873327375) · poddarchhatri@gmail.com
