@@ -1,34 +1,38 @@
-# Hi, I'm Prince Kumar 👋
+<div align="center">
 
-B.Tech CSE student at **IIITDM Chennai** (2024–2028), interested in
-**Machine Learning** and **full-stack development**.
+<img src="./assets/intro.svg" alt="Prince Kumar intro" width="100%"/>
+
+</div>
 
 ## 🛠️ Skills
 
 <div align="center">
 
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css" />
-
-**Web**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,django" />
-
-**Databases, ML & Tools**
-
+<img src="https://skillicons.dev/icons?i=python,java,c,cpp,js,html,css" /><br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,django" /><br/>
 <img src="https://skillicons.dev/icons?i=postgres,supabase,pytorch,tensorflow,pandas,numpy,docker,git,github,vercel" />
 
 </div>
 
-## 🚀 Featured projects
-- **[Movie Recommendation System](link)**: content-based recommender (TF-IDF + SVD), sub-50ms responses
-- **[Job Application Tracker](link)**: full-stack Next.js app with OAuth and interview scheduling
-- **[FoodBridge](link)**: real-time food redistribution PWA (hackathon project)
-- **[News Verification System](link)**: fake-news detection with NLP
+## 🚀 Featured Projects
 
-## 📈 Problem solving
-360+ problems solved on LeetCode, synced to [75-Days-LeetCode-Challenge](link)
+<div align="center">
 
-## 📫 Reach me
+<img src="./assets/projects.svg" alt="Projects carousel" width="100%"/>
+
+</div>
+
+| Project | Link |
+|---|---|
+| Movie Recommendation System | [Repo](https://github.com/poddarchhatri-source/Movie-Recommendation-System) |
+| Job Application Tracker | [Repo](https://github.com/poddarchhatri-source/Job-Application-Tracker) |
+| FoodBridge | [Repo](https://github.com/poddarchhatri-source/FoodBridge) |
+| News Verification System | [Repo](https://github.com/poddarchhatri-source/News-Verification-System) |
+
+## 📈 Problem Solving
+
+360+ problems solved on LeetCode, synced to [75-Days-LeetCode-Challenge](https://github.com/poddarchhatri-source/75-Days-LeetCode-Challenge)
+
+## 📫 Reach Me
+
 [LinkedIn](https://linkedin.com/in/prince-poddar-873327375) · poddarchhatri@gmail.com
